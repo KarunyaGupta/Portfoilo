@@ -12,7 +12,7 @@
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container flex-lg-column">
-        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="index.html">
           <img src="./assets/images/profile.jpg" class="d-none d-lg-block rounded-circle profilepic"/>
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -21,16 +21,16 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              <a class="nav-link active" aria-current="page" href="#services">Tools and Technologies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#work">Work</a>
+              <a class="nav-link active" aria-current="page" href="#projects">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#social-media">Social Media</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
@@ -41,7 +41,7 @@
     </nav>
     <!-- //NAV BAR -->
 
-    <!-- CONTENT WRAPPER -->
+    <!-- Content -->
     <div id="content-wrapper">
       <!-- HOME SECTION -->
       <section id="home" class="full-hight px-lg-5">
@@ -62,6 +62,7 @@
               <div data-aos="fade-up" data-aos-delay="600">
                 <a href="#work" class="btn btn-brand fw-bold me-4">EXPLORE MY WORK</a>
                 <a href="" class="custom-link num"> Call: +91 9805946982</a>
+                <a href="" class="custom-link num" id="email"> mails.karunyagupta@gmail.com</a>
               </div>
             </div>
           </div>
@@ -73,12 +74,71 @@
         <div class="container">
           <div class="row p-4">
             <div class="col-md-8" data-aos="fade-up">
-              <h6>SERVICES</h6>
-              <h1>Services That I Provide</h1>
+              <h1>Tools and Technologies</h1>
+              <!-- <h1>Services That I Provide</h1> -->
             </div>
           </div>
+          <div id="overall-tool">
+            <div class="tool-1">
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/HTML-ICON.png" alt="HTML">
+                <div class="image-name">HTML</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-css-logo-144.png" alt="CSS">
+                <div class="image-name">CSS</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-javascript-250.png" alt="JavaScript">
+                <div class="image-name">JavaScript</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-c-144.png" alt="C">
+                <div class="image-name">C</div>
+              </div>
+            </div>
+            <div class="tool-2">
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-c++-240.png" alt="C++">
+                <div class="image-name">C++</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/pyhton.jpeg" alt="Python">
+                <div class="image-name">Python</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-git-144.png" alt="Git">
+                <div class="image-name">Git</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-github-192.png" alt="GitHub">
+                <div class="image-name">GitHub</div>
+              </div>
+            </div>
+            <div class="tool-1">
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-mongodb-96.png" alt="MongoDBL">
+                <div class="image-name" id="mongodb">Mongo DB</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-react-js-240.png" alt="Reactjs">
+                <div class="image-name">Reactjs</div>
+              </div>
+              <div id="inner-tool" class="image-container">
+                <img src="./assets/images/icons8-mysql-96.png" alt="SQL">
+                <div class="image-name" id="sql" width="100px">SQL</div>
+              </div>
+              <!-- <div id="inner-tool" class="image-container">
+                <img src="./assets/images/c.png" alt="C">
+                <div class="image-name">C</div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
 
-          <div class="row gy-4">
+          <!-- <div class="row gy-4">
             <div class="col-md-4" data-aos="fade-up">
               <div class="bg-base p-4 rounded-4 shadow-effect">
                 <div class="iconbox">
@@ -125,16 +185,16 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
       <!-- //SERVICES -->
 
       <!-- WORK -->
-      <section id="work" class="full-hight px-lg-5">
+      <section id="projects" class="full-hight px-lg-5">
         <div class="container gy-4">
           <div class="row p-4">
             <div class="col-md-8" data-aos="fade-up">
-              <h6>WORK</h6>
-              <h1>My Rectent Projects</h1>
+              <h1>Projects</h1>
             </div>
           </div>
 
@@ -166,27 +226,30 @@
                   <img src="./assets/images/project-2.png" class="rounded-4" />
                 </div>
                 <div class="card-content p-3">
-                  <h4>Event Management Website</h4>
+                  <h4>EasyBiz</h4>
                   <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Asperiores facere fugiat quae officia sequi nemo! Aspernatur
-                    nesciunt ipsum nisi saepe!
+                    An Event management website where user can book venues and vending facilities 
                   </p>
                   <a href="#" class="custom-link">Read More</a>
                 </div>
               </div>
             </div>
-
-            <div
-              class="col-md-6 rounded-4"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-            </div>
           </div>
         </div>
       </section>
       <!-- //WORK -->
+
+      <!-- Experience -->
+       <section id="experience" class="fill-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              
+              <h1>Experience</h1>
+            </div>
+          </div> 
+          
+       </section>
 
       <!-- ABOUT -->
       <section id="about" class="full-hight px-lg-5">
@@ -201,9 +264,9 @@
           <div class="row mb-4">
             <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
               <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5 class="mt-3 mb-4">Bachelor in Computer Science and Engineerng</h5>
+                <h5 class="mt-3 mb-4">Pursuing BE CSE from Chitkara University, Rajpura.</h5>
                 <h6 class="text-brand">
-                 Chitkara University (2023 - 2027)
+                 2023 - Present
                 </h6>
               </div>
             </div>
@@ -212,9 +275,9 @@
           <div class="row mb-4">
             <div class="col-md-12" data-aos="fade-up" data-aos-delay="600">
               <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5 class="mt-3 mb-4">High School Education</h5>
+                <h5 class="mt-3 mb-4">Completed 12th std. from Lord's Convent School Sarkaghat.</h5>
                 <h6 class="text-brand">
-                  Lord's Convent School Sarkaghat
+                  with a score of 89.8%.
                 </h6>
               </div>
             </div>
@@ -223,9 +286,9 @@
           <div class="row mb-4">
             <div class="col-md-12" data-aos="fade-up" data-aos-delay="900">
               <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5 class="mt-3 mb-4">10th</h5>
+                <h5 class="mt-3 mb-4">Completed 10th std. from Lord's Convent School Sarkaghat.</h5>
                 <h6 class="text-brand">
-                  Lord's Convent School Sarkaghat
+                  with a score of 88%
                 </h6>
               </div>
             </div>
@@ -415,25 +478,25 @@
       <!-- //CONTACT -->
 
       <!-- FOOTER -->
-      <footer class="px-lg-5 py-4">
-        <div class="container m-4">
-          <div class="row justify-content-between gy-4">
-            <div class="col-auto mb-0">
-              <p>Copyright reserved 2024 karunya gupta</p>
-            </div>
-            <div class="social-icons col-auto">
-              <a href=""><i class="lab la-linkedin-in"></i></a>
-              <a href=""><i class="lab la-github"></i></a>
-              <a href=""><i class="lab la-instagram"></i></a>
-              <a href=""><i class="lab la-twitter"></i></a>
+      <section id="footer">
+        <footer class="px-lg-5 py-4">
+          <div class="container m-4">
+            <div class="row justify-content-between gy-4" id="logos-self">
+              <div class="col-auto mb-0">
+                <p>Copyright reserved 2024 karunya gupta</p>
+              </div>
+              <div class="social-icons col-auto" >
+                <a href="https://www.linkedin.com/in/karunyagupta/"><i class="lab la-linkedin-in"></i></a>
+                <a href="https://github.com/KarunyaGupta"><i class="lab la-github"></i></a>
+                <a href="https://www.instagram.com/ig_karunya_/"><i class="lab la-instagram"></i></a>
+                <a href="https://x.com/karunya_gupta01"><i class="lab la-twitter"></i></a>
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </section>
       <!-- //FOOTER -->
     </div>
-    <!--//CONTENT WRAPPER -->
-
     <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>

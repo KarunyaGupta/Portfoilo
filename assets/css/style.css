@@ -4,17 +4,11 @@ body {
   background-color: #022a30;
   color: #b6cbce;
   font-family: "kanit";
+  
 }
 
 .card .img {
   overflow: hidden;
-}
-
-.card .img img {
-  transition: all 0.5s ease;
-}
-.card:hover .img img {
-  transform: scale(1.1);
 }
 
 h1,
@@ -29,7 +23,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #b6cbce;
+  color: white;
   transition: all 0.4s ease;
 }
 
@@ -48,6 +42,9 @@ img {
 }
 .navbar .nav-link:hover {
   color: #FFFF00;
+}
+#email{
+  margin-left: 20px;
 }
 
 @media (min-width: 992px) {
@@ -200,9 +197,154 @@ img {
   height: 180px;
 }
 
+#inner-tool img {
+  max-width: 100%;
+  height: 50%;
+  border-radius:50%;
+  object-fit: cover;
+  border:4px solid #FFFF00;
+  background-color: white;
+}
+
+/* Rest of your CSS remains the same */
+#overall-tool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#mongodb,#sql{
+
+}
+
+.tool-1, .tool-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#inner-tool {
+  margin: 8px; /*add some margin between images*/
+  margin-top:20px;
+}
+
+#overall-tool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#inner-tool img {
+  border-radius:50%;
+  width:15em;
+  height: 15em;
+  object-fit: cover;
+  border:4px solid #FFFF00;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:transparent;
+  color:rgb(24, 22, 22);
+  text-align: center;
+  /* padding: 5px; */
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.image-container:hover .image-name {
+  opacity: 0.8;
+}
+#projects,#experience,#about,#contact ,#footer{
+  margin-left: 240px;
+}
+
+
+
+
+
 @media (max-width: 422px) {
   .num {
     padding-top: 2rem;
     display: block;
   }
+  #projects,#experience,#about,#contact ,#footer{
+    margin-left: 0px;
+  }
 }
+/* Use a media query to make the layout responsive */
+
+/* For desktop and large screens */
+@media (min-width: 1200px) {
+  #inner-tool {
+    width: 20%; /* adjust the width to fit 5 images in a row */
+  }
+  #inner-tool img {
+    width: 15em;
+    height: 15em;
+  }
+  /* #projects,#experience,#about,#contact ,#footer{
+    margin-left: 0px;
+  } */
+}
+
+/* For medium-sized screens like tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+  #inner-tool {
+    width: 25%; /* adjust the width to fit 4 images in a row */
+  }
+  #inner-tool img {
+    width:12em;
+    height: 12em;
+  }
+  /* #projects,#experience,#about,#contact ,#footer{
+    margin-left: 0px;
+  } */
+}
+
+/* For small screens like mobile phones */
+@media (min-width: 480px) and (max-width: 767px) {
+  #inner-tool {
+    width: 33.33%; /* adjust the width to fit 3 images in a row */
+  }
+  #inner-tool img {
+    width: 10em;
+    height: 10em;
+  }
+  #projects,#experience,#about,#contact ,#footer{
+    margin-left: 0px;
+  }
+  #email{
+    display: none ;
+  }
+}
+
+/* For extra small screens like older mobile phones */
+@media (max-width: 479px) {
+  #inner-tool {
+    width: 50%; /* adjust the width to fit 2 images in a row */
+  }
+  #inner-tool img {
+    width: 8em;
+    height: 8em;
+  }
+  #projects,#experience,#about,#contact ,#footer{
+    margin-left: 2px;
+  }
+}
+
+/* Add this to make images responsive */
+
+
+
