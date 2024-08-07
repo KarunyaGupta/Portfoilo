@@ -26,6 +26,15 @@ a {
   color: white;
   transition: all 0.4s ease;
 }
+#contact-details{
+  display: flex;
+  margin-top:16px;
+}
+#main-logo{
+  width:30px;
+  height:30px;
+  margin-left:10px;
+}
 
 a:hover {
   color: #FFFF00;
@@ -42,9 +51,6 @@ img {
 }
 .navbar .nav-link:hover {
   color: #FFFF00;
-}
-#email{
-  margin-left: 20px;
 }
 
 @media (min-width: 992px) {
