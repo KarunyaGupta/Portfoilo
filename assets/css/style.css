@@ -377,6 +377,9 @@ img {
     display: flex;
     flex-direction: column;
   }
+  #phone , #mail-id{
+    display: flex;
+  }
 }
 
 /* For extra small screens like older mobile phones */
