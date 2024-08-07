@@ -333,7 +333,7 @@ img {
 /* For extra small screens like older mobile phones */
 @media (max-width: 479px) {
   #inner-tool {
-    width: 33.33%; /* adjust the width to fit 2 images in a row */
+    width: 40%; /* adjust the width to fit 2 images in a row */
   }
   #inner-tool img {
     width: 8em;
