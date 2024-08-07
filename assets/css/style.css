@@ -261,6 +261,7 @@ img {
 #inner-tool {
   margin: 8px; /*add some margin between images*/
   margin-top:20px;
+  margin-bottom: 16px;
 }
 
 #overall-tool {
@@ -341,11 +342,6 @@ img {
 
 /* For medium-sized screens like tablets */
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* #inner-tool {
-    width: auto;
-     /* adjust the width to fit 4 images in a row */
-    
-  } */
   #inner-tool img {
     width:12em;
     height: 12em;
@@ -360,15 +356,14 @@ img {
     margin:20px;
 
   }
-
-
 }
 
 /* For small screens like mobile phones */
 @media (min-width: 480px) and (max-width: 767px) {
-  /* #inner-tool {
+  #inner-tool {
     width: 33.33%; /* adjust the width to fit 3 images in a row */
-  } */
+    
+  }
   #inner-tool img {
     width: 10em;
     height: 10em;
@@ -389,8 +384,9 @@ img {
 /* For extra small screens like older mobile phones */
 @media (max-width: 479px) {
   #inner-tool {
-    width: 40%; /* adjust the width to fit 2 images in a row */
-    margin:auto;
+    width:33.33%; /* adjust the width to fit 2 images in a row */
+    
+
   }
   #inner-tool img {
     width: 8em;
