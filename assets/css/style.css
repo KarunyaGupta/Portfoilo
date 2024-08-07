@@ -377,7 +377,7 @@ img {
     display: flex;
     flex-direction: column;
   }
-  #phone , #mail-id{
+  #phone {
     display: flex;
   }
 }
