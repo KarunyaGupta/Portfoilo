@@ -305,7 +305,11 @@ img {
   margin-left: 240px;
 }
 
-
+#contact-details{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
 
 
@@ -316,6 +320,7 @@ img {
   }
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
+    
   }
 }
 /* Use a media query to make the layout responsive */
@@ -336,36 +341,18 @@ img {
 
 /* For medium-sized screens like tablets */
 @media (min-width: 768px) and (max-width: 1199px) {
-  #inner-tool {
-    width: 25%; /* adjust the width to fit 4 images in a row */
-  }
+  /* #inner-tool {
+    width: auto;
+     /* adjust the width to fit 4 images in a row */
+    
+  } */
   #inner-tool img {
     width:12em;
     height: 12em;
   }
-  /* #projects,#experience,#about,#contact ,#footer{
-    margin-left: 0px;
-  } */
-
-}
-
-/* For small screens like mobile phones */
-@media (min-width: 480px) and (max-width: 767px) {
-  #inner-tool {
-    width: 33.33%; /* adjust the width to fit 3 images in a row */
-  }
-  #inner-tool img {
-    width: 10em;
-    height: 10em;
-  }
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
-  }
-  #mini-project-container{
-    display: flex;
-    flex-direction: column;
     width:100%;
-    justify-content: center;
   }
   #mini-project{
     margin-top: 10px;
@@ -373,32 +360,43 @@ img {
     margin:20px;
 
   }
-  #contact-details{
-    display: flex;
-    flex-direction: column;
+
+
+}
+
+/* For small screens like mobile phones */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* #inner-tool {
+    width: 33.33%; /* adjust the width to fit 3 images in a row */
+  } */
+  #inner-tool img {
+    width: 10em;
+    height: 10em;
   }
-  #phone {
-    display: flex;
+  #projects,#experience,#about,#contact ,#footer{
+    margin-left: 0px;
   }
+  #mini-project{
+    margin-top: 10px;
+    width:90%;
+    margin:20px;
+
+  }
+  
+
 }
 
 /* For extra small screens like older mobile phones */
 @media (max-width: 479px) {
-  #inner-tool {
+  /* #inner-tool {
     width: 40%; /* adjust the width to fit 2 images in a row */
-  }
+  } */
   #inner-tool img {
     width: 8em;
     height: 8em;
   }
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 2px;
-  }
-  #mini-project-container{
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    justify-content: center;
   }
   #mini-project{
     margin-top: 10px;
