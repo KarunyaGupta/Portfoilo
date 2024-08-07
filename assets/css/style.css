@@ -388,9 +388,10 @@ img {
 
 /* For extra small screens like older mobile phones */
 @media (max-width: 479px) {
-  /* #inner-tool {
+  #inner-tool {
     width: 40%; /* adjust the width to fit 2 images in a row */
-  } */
+    margin:auto;
+  }
   #inner-tool img {
     width: 8em;
     height: 8em;
