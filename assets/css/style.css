@@ -373,6 +373,10 @@ img {
     margin:20px;
 
   }
+  #contact-details{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* For extra small screens like older mobile phones */
@@ -399,10 +403,7 @@ img {
     margin:20px;
 
   }
-  #contact-details{
-    display: flex;
-    flex-direction: column;
-  }
+
 }
 
 /* Add this to make images responsive */
