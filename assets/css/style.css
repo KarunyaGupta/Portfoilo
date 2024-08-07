@@ -325,12 +325,12 @@ img {
     
   }
 }
-/* Use a media query to make the layout responsive */
+
 
 /* For desktop and large screens */
 @media (min-width: 1200px) {
   #inner-tool {
-    width: 20%; /* adjust the width to fit 5 images in a row */
+    width: 20%;
   }
   #inner-tool img {
     width: 15em;
@@ -404,8 +404,6 @@ img {
   }
 
 }
-
-/* Add this to make images responsive */
 
 
 
