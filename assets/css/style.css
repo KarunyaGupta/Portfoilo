@@ -69,6 +69,35 @@ img {
 .text-brand {
   color: #FFFF00;
 }
+#mini-project-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+#mini-project{
+  background-color: #057786;
+  border-radius: 10px;
+  width:24%;
+  text-align: center;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  
+}
+#project-name{
+  margin-top: 10px;
+}
+#content-mini-project{
+  text-decoration: none;
+  line-height: 20px;
+
+}
+#mini-project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border:2px  solid #FFFF00;
+}
 
 .full-hight {
   min-height: 100vh;
@@ -325,9 +354,6 @@ img {
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
   }
-  #email{
-    text-align: left;
-  }
 }
 
 /* For extra small screens like older mobile phones */
@@ -341,9 +367,6 @@ img {
   }
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 2px;
-  }
-  #email{
-    text-align: left;
   }
 }
 
