@@ -35,6 +35,9 @@ a {
   height:30px;
   margin-left:10px;
 }
+#nev-logo i {
+  font-size: 36px; /* or any other size you prefer */
+}
 
 a:hover {
   color: #FFFF00;
@@ -298,6 +301,42 @@ img {
   transition: opacity 0.5s;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
+}
+#tech-use , #min-tech-use{
+  display:flex;
+  justify-content:left;
+  flex-wrap: wrap;
+  color:#FFFF00
+}
+
+#tech{
+  background-color: transparent;
+  color:#FFFF00;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  border:1px solid #b6cbce;
+  border-radius: 5px;
+}
+#tech-git{
+  margin-left:20px;
+
+}
+#web-site{
+  display: flex;
+  flex-wrap: wrap;
+  margin:10px;
+  justify-content: right;
+  margin-left: 50px;
+
+}
+#gitlogo{
+  margin-left: 30px;
+}
+
+#project-detail{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .image-container:hover .image-name {
