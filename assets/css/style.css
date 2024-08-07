@@ -93,6 +93,9 @@ img {
   line-height: 20px;
 
 }
+#mini{
+  text-align: center ;
+}
 #mini-project:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -241,9 +244,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-#mongodb,#sql{
-
-}
 
 .tool-1, .tool-2 {
   display: flex;
@@ -340,6 +340,7 @@ img {
   /* #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
   } */
+
 }
 
 /* For small screens like mobile phones */
@@ -353,6 +354,18 @@ img {
   }
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
+  }
+  #mini-project-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+  }
+  #mini-project{
+    margin-top: 10px;
+    width:90%;
+    margin:20px;
+
   }
 }
 
