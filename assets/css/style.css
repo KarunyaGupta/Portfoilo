@@ -254,6 +254,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 
@@ -265,9 +266,9 @@ img {
 }
 
 #inner-tool {
-  margin: 8px; /*add some margin between images*/
+  margin: 10px;
   margin-top:20px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 #overall-tool {
@@ -380,6 +381,7 @@ img {
   }
   /* #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
+    width: 100%;
   } */
 }
 
@@ -397,7 +399,6 @@ img {
     margin-top: 10px;
     width:90%;
     margin:20px;
-
   }
 }
 
