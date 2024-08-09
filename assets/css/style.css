@@ -382,7 +382,7 @@ img {
   /* #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
     width: 100%;
-  } */
+  } */                            
 }
 
 /* For medium-sized screens like tablets */
@@ -393,7 +393,7 @@ img {
   }
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
-    width:100%;
+    /* width:100%; */
   }
   #mini-project{
     margin-top: 10px;
