@@ -38,6 +38,11 @@ a {
 #nev-logo i {
   font-size: 36px; /* or any other size you prefer */
 }
+#repo-link{
+  font-size: 36px;
+  text-align: end;
+  margin-top: 5px;
+}
 
 
 a:hover {
@@ -305,11 +310,21 @@ img {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
+
 #tech-use , #min-tech-use{
   display:flex;
   justify-content:left;
   flex-wrap: wrap;
   color:#FFFF00
+}
+#link{
+  height: 36px;
+}
+#web-link{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 #tech{
@@ -321,10 +336,6 @@ img {
   border:1px solid #b6cbce;
   margin-bottom: 10px;
   border-radius: 5px;
-}
-#tech-git{
-  margin-left:20px;
-
 }
 #web-site{
   display: flex;
