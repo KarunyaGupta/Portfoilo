@@ -98,6 +98,7 @@ img {
   
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  /* border:2px  solid #FFFF00; */
   
 }
 #project-name{
@@ -105,8 +106,12 @@ img {
   /* color:#FFFF00; */
 }
 #content-mini-project{
-  /* text-decoration: none; */
+  text-decoration: none;
   line-height: 20px;
+  text-align:center;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-wrap: wrap;
 
 }
 #mini{
@@ -114,7 +119,7 @@ img {
 }
 #mini-project:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
   border:2px  solid #FFFF00;
 }
 
