@@ -369,6 +369,7 @@ img {
 
 
 
+
 @media (max-width: 422px) {
   .num {
     padding-top: 2rem;
@@ -435,6 +436,7 @@ img {
   
 
 }
+
 
 /* For extra small screens like older mobile phones */
 @media (max-width: 479px) {
