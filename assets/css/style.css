@@ -93,7 +93,8 @@ img {
 #mini-project{
   background-color: #057786;
   border-radius: 10px;
-  width:24%;
+  width:33%;
+  /* width:25%; */
   text-align: center;
   
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -105,6 +106,9 @@ img {
   margin-top: 10px;
   /* color:#FFFF00; */
 }
+
+
+
 #content-mini-project{
   text-decoration: none;
   line-height: 20px;
@@ -121,6 +125,23 @@ img {
   transform: scale(1.05);
   /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
   border:2px  solid #FFFF00;
+}
+
+#box-project{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  margin-left:-14px;
+  margin-right: 20px; 
+  top:-10px;
+
+}
+#box-project-bigboss{
+  display: flex;
+  justify-content: end;
+  margin-right: -24px;
+  width:51%;
 }
 
 .full-hight {
@@ -384,6 +405,19 @@ img {
     margin-left: 0px;
     
   }
+  #box-project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    /* display: none; */
+  }
+  #box-project-bigboss{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
 }
 
 
@@ -399,7 +433,8 @@ img {
   /* #projects,#experience,#about,#contact ,#footer{
     margin-left: 0px;
     width: 100%;
-  } */                            
+  } */  
+                            
 }
 
 /* For medium-sized screens like tablets */
@@ -409,7 +444,7 @@ img {
     height: 12em;
   }
   #projects,#experience,#about,#contact ,#footer{
-    margin-left: 0px;
+    /* margin-left: 0px; */
     /* width:100%; */
   }
   #mini-project{
