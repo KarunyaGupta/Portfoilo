@@ -405,19 +405,6 @@ img {
     margin-left: 0px;
     
   }
-  #box-project{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    /* display: none; */
-  }
-  #box-project-bigboss{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-  }
 }
 
 
@@ -442,10 +429,6 @@ img {
   #inner-tool img {
     width:12em;
     height: 12em;
-  }
-  #projects,#experience,#about,#contact ,#footer{
-    /* margin-left: 0px; */
-    /* width:100%; */
   }
   #mini-project{
     margin-top: 10px;
