@@ -346,6 +346,13 @@ img {
 #link{
   height: 36px;
 }
+#nevitem a{
+  color:#eef3db; 
+}
+
+#nevitem a:hover{
+  color:#FFFF00; 
+}
 #web-link{
   height: 40px;
   width: 40px;
