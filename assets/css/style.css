@@ -304,6 +304,13 @@ img {
   margin-top:20px;
   margin-bottom: 20px;
 }
+/* #click {
+  display: none;
+}
+label .menu_btn,
+label .close_btn {
+    display: none;
+} */
 
 #overall-tool {
   display: flex;
@@ -444,6 +451,17 @@ img {
     margin-top: 10px;
     width:90%;
     margin:20px;
+  }
+  #click:checked~ul {
+    left: 0;
+  }
+
+  #click:checked~label .close_btn {
+      display: block;
+  }
+
+  #click:checked~label .menu_btn {
+      display: none;
   }
 }
 
