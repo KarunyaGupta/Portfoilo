@@ -296,6 +296,7 @@ img {
   margin-left: 50px;
   margin-top: 20px;
   width:fit-content;
+  width:90%;
   
 }
 .experience-item-circle {
@@ -506,6 +507,10 @@ label .close_btn {
   #click:checked~label .menu_btn {
       display: none;
   }
+  #projects,#experience,#about,#contact ,#footer{
+    margin-left: 0px;
+  }
+  
 }
 
 /* For small screens like mobile phones */
@@ -553,6 +558,11 @@ label .close_btn {
 
   }
 
+}
+@media(min-width:992px){
+  #projects,#experience,#about,#contact ,#footer{
+    margin-left: 240px;
+  }
 }
 
 
