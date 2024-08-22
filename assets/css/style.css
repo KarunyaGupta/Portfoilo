@@ -282,6 +282,47 @@ img {
   border:4px solid #FFFF00;
   background-color: white;
 }
+#experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  
+}
+.experience-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-top: 20px;
+  width:fit-content;
+  
+}
+.experience-item-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #fdd835;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.experience-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* background-color: #057786; */
+  border-radius: 10px;
+  
+  
+}
+.experience-item-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.experience-item-description {
+  font-size: 1rem;
+  margin-left: 20px;
+}
 
 /* Rest of your CSS remains the same */
 #overall-tool {
@@ -364,10 +405,11 @@ label .close_btn {
   color:#FFFF00; 
 }
 #web-link{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 8px;
+  
 }
 
 #tech{
