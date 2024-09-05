@@ -289,7 +289,7 @@ img {
   display: flex;
   /* gap: 20px; */
   align-items: flex-start;
-  margin-left: 50px;
+  margin-left:5%;
   margin-top: 20px;
   width:fit-content;
   width:90%;
@@ -306,11 +306,11 @@ img {
 .experience-item-content {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  /* gap: 5px; */
   /* background-color: #057786; */
   /* border-radius: 10px; */
   color:#eef3db;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   
   
 }
@@ -364,7 +364,7 @@ label .close_btn {
   
 }
 
-/
+
 
 #tech-use , #min-tech-use{
   display:flex;
@@ -451,29 +451,8 @@ hr{
   }
 }
 
-
-/* For desktop and large screens */
-@media (min-width: 1200px) {
-  #inner-tool {
-    width: 20%;
-  }
-  #inner-tool img {
-    width: 15em;
-    height: 15em;
-  }
-  /* #projects,#experience,#about,#contact ,#footer{
-    margin-left: 0px;
-    width: 100%;
-  } */  
-                            
-}
-
 /* For medium-sized screens like tablets */
 @media (min-width: 768px) and (max-width: 1199px) {
-  #inner-tool img {
-    width:12em;
-    height: 12em;
-  }
   #mini-project{
     margin-top: 10px;
     width:90%;
@@ -543,6 +522,7 @@ hr{
   #projects,#experience,#about,#contact ,#footer{
     margin-left: 240px;
   }
+
 }
 
 
