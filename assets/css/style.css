@@ -436,6 +436,11 @@ hr{
 #Achievements{
   margin-top: -100px;
 }
+.experience-item-content hr{
+  width: 100%;
+  border: 2px solid #FFFF00;
+  border-radius: 50%;
+}
 
 
 
