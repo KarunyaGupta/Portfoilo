@@ -343,10 +343,15 @@ label .close_btn {
 #overalltool{
   display: flex;
   flex-wrap: wrap;
-  width:fit-content;
+  /* width:fit-content; */
   justify-content:space-around;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  /* justify-content: space-around; */
+  text-align: center;
+
 }
-#imagecontainer img{
+/* #imagecontainer img{
   width:150px;
   height: 150px;
   
@@ -356,12 +361,50 @@ label .close_btn {
   margin-left:5%;
   border: 2px solid #FFFF00;
   background-color: white;
-}
-#imagecontainer{
+} */
+/* #imagecontainer{
   margin-top: 20px;
   margin-bottom: 10px;
 
   
+} */
+
+/* #leftbox{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+
+} */
+#leftbox, #rightbox {
+  background-color: #fff; /* White background for boxes */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding inside the boxes */
+  margin: 10px; /* Margin between boxes */
+  width: 45%; /* Set width of boxes */
+  display: inline-block; /* Align boxes side by side */
+  vertical-align: top; /* Align boxes to the top */
+}
+
+ol {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+ol li {
+  padding: 8px 0; /* Padding for list items */
+  border-bottom: 1px solid #ddd; /* Bottom border for list items */
+}
+
+ol li:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+b {
+  display: block; /* Make the heading block level */
+  margin-bottom: 10px; /* Space below the heading */
+  font-size: 1.2em; /* Increase font size for the heading */
+  /* color: #333; Darker color for the heading */
 }
 
 
